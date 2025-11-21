@@ -59,6 +59,14 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Quote Section */}
+          <div className="mt-8 flex w-full flex-col gap-2 rounded-lg border-l-4 border-slate-300 bg-slate-100 p-6 dark:border-slate-600 dark:bg-slate-800/50">
+            <p className="text-center text-base italic leading-relaxed text-slate-700 dark:text-slate-300 sm:text-lg">
+              "Consistency and hard work matter. Small daily improvements lead to
+              remarkable results over time."
+            </p>
+          </div>
+
           {/* Additional Info */}
           <p className="mt-4 text-sm text-slate-500 dark:text-slate-500">
             This page confirms that your Next.js application is properly deployed
